@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\jim\.nuget\packages\</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.8.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="$([MSBuild]::EnsureTrailingSlash($(NuGetPackageFolders)))" />
+  </ItemGroup>
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgFSharp_Core Condition=" '$(PkgFSharp_Core)' == '' ">C:\Users\jim\.nuget\packages\fsharp.core\5.0.0</PkgFSharp_Core>
+    <PkgAmazon_Lambda_Core Condition=" '$(PkgAmazon_Lambda_Core)' == '' ">C:\Users\jim\.nuget\packages\amazon.lambda.core\2.1.0</PkgAmazon_Lambda_Core>
+    <PkgAmazon_Lambda_Serialization_SystemTextJson Condition=" '$(PkgAmazon_Lambda_Serialization_SystemTextJson)' == '' ">C:\Users\jim\.nuget\packages\amazon.lambda.serialization.systemtextjson\2.2.0</PkgAmazon_Lambda_Serialization_SystemTextJson>
+    <PkgAmazon_Lambda_APIGatewayEvents Condition=" '$(PkgAmazon_Lambda_APIGatewayEvents)' == '' ">C:\Users\jim\.nuget\packages\amazon.lambda.apigatewayevents\2.4.0</PkgAmazon_Lambda_APIGatewayEvents>
+  </PropertyGroup>
+</Project>

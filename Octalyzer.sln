@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Octalyzer", "Octalyzer\Octalyzer.fsproj", "{B3E4E7E8-165D-4165-9840-0356AD442DDE}"
+EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Octalyzer.Tests", "Octalyzer.Tests\Octalyzer.Tests.fsproj", "{5B6B4397-78F4-4377-8D04-285E4465715E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3E4E7E8-165D-4165-9840-0356AD442DDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3E4E7E8-165D-4165-9840-0356AD442DDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3E4E7E8-165D-4165-9840-0356AD442DDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3E4E7E8-165D-4165-9840-0356AD442DDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B6B4397-78F4-4377-8D04-285E4465715E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B6B4397-78F4-4377-8D04-285E4465715E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B6B4397-78F4-4377-8D04-285E4465715E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B6B4397-78F4-4377-8D04-285E4465715E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E103BB24-DAC4-4287-BEEC-14F325100AD7}
+	EndGlobalSection
+EndGlobal
