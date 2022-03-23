@@ -1,0 +1,6 @@
+﻿/.vs/**
+/node_modules/**
+bin
+obj
+/_NCrunch_Octalyzer/**
+*.user
